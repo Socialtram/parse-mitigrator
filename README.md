@@ -7,7 +7,7 @@ Works only in io.js +1.6 and node.js +0.12 passing the following flags: `--harmo
 ## Installation
 
 ```bash
-npm install parse-mitigrator 
+npm install parse-mitigrator
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install parse-mitigrator
 ```js
 const mitigrator = require('parse-mitigrator')
 
-const client = mitigrator({ 
+const client = mitigrator({
   appId: 'blablabla',
   appKey: 's3cr3t'
 })
